@@ -1,0 +1,160 @@
+@font-face {
+	font-family: "Klavika Web Regular Condensed";
+	src: url("9ea60840bd8fe427a00ded2338da6211.eot");
+	/* IE9*/
+	src: url("9ea60840bd8fe427a00ded2338da6211.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("9ea60840bd8fe427a00ded2338da6211.woff2") format("woff2"), /* chrome、firefox */
+	url("9ea60840bd8fe427a00ded2338da6211.woff") format("woff"), /* chrome、firefox */
+	url("9ea60840bd8fe427a00ded2338da6211.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url("9ea60840bd8fe427a00ded2338da6211.svg#Klavika Web Regular Condensed") format("svg");
+	/* iOS 4.1- */
+}
+
+.topnav {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	width: auto;
+	font-family: "Klavika Web Regular Condensed";
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	padding-left: 1.125rem;
+	padding-right: 1.125rem;
+	background-color: white;
+
+
+}
+
+a:hover {
+	color: red;
+}
+
+
+.achtergrond {
+	position: relative;
+	width: 100%;
+}
+
+
+
+.yair {
+	width: 100%;
+	height: auto;
+
+}
+
+.locatie {
+	font-family: "Klavika Web Regular Condensed";
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+}
+
+.namen {
+	font-family: "Klavika Web Regular Condensed";
+	color: white;
+	font-weight: bold;
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
+
+.knop1 {
+	font-family: "Klavika Web Regular Condensed";
+	padding: 2em;
+	position: absolute;
+	text-transform: uppercase;
+	font-weight: bold;
+	top: 50%;
+	left: 40%;
+
+}
+
+.knop1:hover {
+	background-color: black;
+	color: white;
+}
+
+.knop2 {
+	font-family: "Klavika Web Regular Condensed";
+	padding: 2em;
+	position: absolute;
+	text-transform: uppercase;
+	font-weight: bold;
+	top: 50%;
+	left: 60%;
+}
+
+.knop2:hover {
+	background-color: black;
+	color: white;
+}
+
+
+
+h1,
+h2 {
+	font-family: "Klavika Web Regular Condensed";
+	display: inline;
+	text-transform: uppercase;
+}
+
+
+
+.night1 {
+	margin-left: 55%;
+}
+
+
+.namen2 {
+	font-family: "Klavika Web Regular Condensed";
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.namen2:hover {
+	color: red;
+}
+
+.tijd {
+	font-family: "Klavika Web Regular Condensed";
+	font-weight: bold;
+	
+}
+
+.tijd:hover {
+	color: red;
+}
+
+.stadion,
+.stad {
+	font-family: "Klavika Web Regular Condensed";
+	color: gray;
+}
+
+.watch,
+.tickets {
+	font-family: "Klavika Web Regular Condensed";
+	text-align: center;
+	padding: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+
+
+}
+
+.watch:hover,
+.tickets:hover {
+	background-color: lightgrey;
+	border-bottom: .5px solid red;
+}
