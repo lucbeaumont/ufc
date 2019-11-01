@@ -3,51 +3,245 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>UFC</title>
 	<link rel="stylesheet" type="text/css" href="ufc.css">
-
-	<section class="topnav">
-		<a>Events</a>
-		<a>Rankings</a>
-		<a>Athletes</a>
-		<a>Trending</a>
-		<a>Connect</a>
-		<a>Watch</a>
-		<a>Shop</a>
-	</section>
-
 
 </head>
 
 <body>
+	<header>
+		<h1>UFC Events</h1>
+		<nav>
+			<ul id="desktop">
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Rankings</a></li>
+				<li><a href="#">Athletes</a></li>
+				<li><a href="#">Trending</a></li>
+			</ul>
+			<a href="#">
+				<img src="afbeeldingen/1280px-UFC_logo.svg.png" alt="ufc logo">
+			</a>
+			<ul>
+				<li><a href="#">Connect</a></li>
+				<li><a href="#">Watch</a></li>
+				<li><a href="#">Shop</a></li>
+			</ul>
+		</nav>
+
+		<div id="mobile">
+
+
+			<a href="" id="dropdown">MENU</a>
+			<!--- verborgen menu -->
+			<ul id="hamburger">
+				<li><a href=""></a>Events</li>
+				<li><a href=""></a>Rankings</li>
+				<li><a href=""></a>Athletes</li>
+				<li><a href=""></a>Trending</li>
+				<li><a href=""></a>Connect</li>
+				<li><a href=""></a>Watch</li>
+				<li><a href=""></a>Shop</li>
+
+			</ul>
+		</div>
+	</header>
+
+
+	<article id="featured">
 
 
 
-	<div class="achtergrond">
-		<img class="yair" src="afbeeldingen/yair.jpg" alt="achtergrond">
-		<div class="locatie">Ufc vancouver</div>
-		<div class="namen">Rodriguez vs stephens</div>
-		<button class="knop1">Watch ufc on espn+</button>
-		<button class="knop2">Fight card</button>
-	</div>
+		<img src="afbeeldingen/yair.jpg" alt="UFC Vancouver">
 
-	<h1>Upcoming</h1>
-	<h2>Past</h2>
-
-	<p>11 events</p>
-
-	<div class="night1">
-		<p class="namen2">hermansson vs cannonier</p>
-		<p class="tijd">Sat, Sep 28 / 8:00 PM CEST / Main Card</p>
-		<p class="stadion">Royal Arena</p>
-		<p class="stad">Copenhagen Denmark</p>
-		<button class="watch">How to watch</button>
-		<button class="tickets">Tickets</button>
-
-
-	</div>
+		<h2>UFC Vancouver</h2>
+		<h1>Rodriguez vs Stephens</h1>
+		<h2>Watch live on ESPN+ at 8am/5am ETPT</h2>
+		<a href="form.html"><button>Subscribe to ESPN+</button></a>
+		<button>Fight Card</button>
 
 
 
 
+
+
+
+	</article>
+
+
+	<main id="upcoming">
+
+		<h2>upcoming</h2>
+		<h2>past</h2>
+
+		<p>5 events</p>
+
+		<section id="fights">
+			<article id="fight">
+
+				<div id="photos">
+
+					<img src="afbeeldingen/MASVIDAL_JORGE.png" alt="">
+					<img src="afbeeldingen/NateDiaz_Headshot.png" alt="">
+				</div>
+
+				<a href="detail.html"><p id="names">Masvidal vs Diaz</p></a>
+				<p id="when">Sun, Nov 3 / 3:00 AM CET / Main Card</p>
+				<p id="venue">Madison Square Garden</p>
+				<p id="location">New York, NY United States</p>
+
+				<div id="knoppen">
+					<button>How to watch</button>
+					<button>Tickets</button>
+				</div>
+			</article>
+			<article id="fight">
+
+				<div id="photos">
+
+					<img src="afbeeldingen/BLACHOWICZ_JAN.png" alt="">
+					<img src="afbeeldingen/SOUZA_JACARE.png" alt="">
+				</div>
+				<p id="names">Blachowicz vs Jacare</p>
+				<p id="when">Sun, Nov 17 / 2:00 AM CET / Main Card</p>
+				<p id="venue">Ginasio do Ibirapuera</p>
+				<p id="location">Paraiso - SP Brazil</p>
+				<div id="knoppen">
+					<button>How to watch</button>
+					<button>Tickets</button>
+				</div>
+			</article>
+
+			<article id="fight">
+
+				<div id="photos">
+
+					<img src="afbeeldingen/OVEREEM_ALISTAIR.png" alt="">
+					<img src="afbeeldingen/HARRIS_WALT.png" alt="">
+				</div>
+
+
+				<p id="names">Overeem vs Harris</p>
+				<p id="when">Sun, Dec 8 / 3:00 AM CET / Main Card</p>
+				<p id="venue">Capital One Arena</p>
+				<p id="location">Washington DC, DC United States</p>
+				<div id="knoppen">
+					<button>How to watch</button>
+					<button>Tickets</button>
+				</div>
+
+			</article>
+
+
+			<article id="fight">
+
+				<div id="photos">
+
+					<img src="afbeeldingen/USMAN_KAMARU_BELT.png" alt="">
+					<img src="afbeeldingen/COVINGTON_COLBY.png" alt="">
+				</div>
+
+				<p id="names">Usman vs Covington</p>
+				<p id="when">Sun, Dec 15 / 4:00 AM CET / Main Card</p>
+				<p id="venue">T Mobile Arena</p>
+				<p id="location">Las Vegas, NV United States</p>
+				<div id="knoppen">
+					<button>How to watch</button>
+					<button>Tickets</button>
+				</div>
+
+			</article>
+
+			<article id="fight">
+
+				<div id="photos">
+
+					<img src="afbeeldingen/ORTEGA_BRIAN.png" alt="">
+					<img src="afbeeldingen/SUNG-JUNG_CHAN.png" alt="">
+				</div>
+
+
+				<p id="names">Ortega vs The Korean Zombie</p>
+				<p id="when">Sat, Dec 21 / 11:00 AM CET / Main Card</p>
+				<p id="venue">Sajik Arena</p>
+				<p id="location">Dongnae-gu Busan, South Korea</p>
+				<div id="knoppen">
+					<button>How to watch</button>
+					<button>Tickets</button>
+				</div>
+			</article>
+		</section>
+	</main>
+
+	<button id="load">Load more</button>
+
+
+	<section id="news">
+		<article id="posts">
+			<header>
+				<img src="afbeeldingen/diaz-masvidal-hero.jpg" alt="Masvidal and Diaz">
+				<h3>Diaz, Masvidal putting it all on the line for bmf belt</h3>
+			</header>
+			<footer>
+				<p>more</p>
+			</footer>
+		</article>
+		<article id="posts">
+			<header>
+				<img src="afbeeldingen/whittaker-brunson-hero.jpg" alt="Whittaker and Brunson">
+				<h3>Ufc 243 free fight: whittaker vs brunson</h3>
+			</header>
+			<footer>
+				<p>watch the video</p>
+			</footer>
+		</article>
+		<article id="posts">
+			<header>
+				<img src="afbeeldingen/adesanya-silva-hero.jpg" alt="Adesanya and Silva">
+				<h3>Ufc 243 free fight: adesanya vs silva</h3>
+			</header>
+			<footer>
+				<p>watch the video</p>
+			</footer>
+		</article>
+	</section>
+
+
+	<script type="text/javascript" src="index.js"></script>
 </body>
+
+
+<footer id="bottom">
+
+	<img src="afbeeldingen/ufc_PNG61.png" alt="ufc logo">
+
+	<p>ufc.com - world</p>
+
+	<hr>
+
+	<ul>
+		<li>UFC</li>
+		<li>The Sport</li>
+		<li>Community</li>
+		<li>Careers</li>
+		<li>Store</li>
+		<li>Press Credentials</li>
+	</ul>
+
+	<ul>
+		<li>HELP</li>
+		<li>Fight Pass FAQ</li>
+	</ul>
+
+	<ul>
+		<li>LEGAL</li>
+		<li>Terms</li>
+		<li>Privacy Policy</li>
+		<li>Ad Choices</li>
+	</ul>
+
+	<hr>
+
+
+
+</footer>
